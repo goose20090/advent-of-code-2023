@@ -3,6 +3,14 @@ pqr3stu8vwx
 a1b2c3d4e5f
 treb7uchet"
 
+DAY_2_TEST_TEXT = "two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen"
+
 INPUT_TEXT= "four82nine74
 hlpqrdh3
 eightsevenhrsseven988
