@@ -1,4 +1,5 @@
-require_relative 'constants'
+require_relative 'day_1_constants'
+require 'pry'
 
 def calibrate str
   # split the lines
