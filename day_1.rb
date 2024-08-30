@@ -1,16 +1,16 @@
 require_relative 'constants'
-require 'debug'
 
 def calibrate str
-  num_lines = str.gsub(/[a-zA-Z]/, "").split("\n")
+  # split the lines
+  lines = str.split(/\n/)
+  # get the digits characters for each line
+  digits = lines.map{|line| line.scan(/\d/)}
 
-  total = 0
+  # get the coordinates
+  coordinates = digits.map{|line| (line.first + line.last).to_i }
 
-  num_lines.each do |num_str|
-    total += (num_str[0] + num_str[-1]).to_i
-  end
-
-  puts total
+  # return the total
+  puts coordinates.sum
 end
 
 
